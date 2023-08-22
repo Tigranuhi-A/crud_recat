@@ -25,7 +25,7 @@ Git: [Download and install Git](https://git-scm.com/)
 
 2. Navigate to the project directory:
    ```bash
-    cd crud-react-project
+    cd crud_react
 
 3. Install the project dependencies:
    ```bash
