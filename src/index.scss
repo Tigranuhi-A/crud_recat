@@ -1,0 +1,83 @@
+$background: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+$textSize: 14px;
+$position: center;
+$padding: 2px 14px;
+
+body {
+    background-image: $background;
+}
+
+table thead {
+    text-align: $position;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+tbody tr .action .edit{
+    text-align: $position;
+    font-weight: bold;
+    background-color: green;
+    font-size: $textSize;
+    border-radius: 8px;
+    padding: $padding;
+}
+
+tbody tr .action .detail{
+    text-align: $position;
+    font-weight: bold;
+    background-color: yellow;
+    font-size: $textSize;
+    border-radius: 8px;
+    padding: $padding;
+}
+
+tbody tr .action .delete{
+    text-align: $position;
+    font-weight: bold;
+    background-color: red;
+    font-size: $textSize;
+    border-radius: 8px;
+    padding: $padding;
+}
+
+.add {
+    text-align: $position;
+    background-color: darkslategray;
+    color: wheat;
+    margin: 10px;
+    font-weight: bold;
+    font-size: $textSize;
+    padding: $padding;
+}
+
+.addPageForm, .editDetailForm, .detailForm{
+    display: flex;
+    align-items: $position;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.addPageForm button, .editDetailForm button, .detailForm button{
+    background-color: green;
+    font-weight: bold;
+    padding: $padding;
+    margin-top: 5px;
+}
+
+.addPageText, .editPageText, .detailPageText{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: $position;
+    margin: 15px 0;
+}
+
+
+.detailForm .title {
+    font-weight: bold;
+}
+
+
